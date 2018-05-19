@@ -129,7 +129,7 @@ def main():
     """Run the bot."""
     # Telegram Bot Authorization Token
     print('Starting bot')
-    token = '584654234:AAHqhlLwJqM3C9UyVm3ZeFnvhl0zkc_C6VQ'
+    token = '...'
     updater = Updater(token, request_kwargs={'proxy_url':'socks5://97.74.230.16:6842/'})
 
     dispatcher = updater.dispatcher
